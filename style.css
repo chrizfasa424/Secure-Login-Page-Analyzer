@@ -1,0 +1,40 @@
+/* General page styling */
+body {
+  background-color: #f2f6fc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+/* Form container */
+form {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Buttons */
+button {
+  font-weight: 500;
+}
+
+/* Result section */
+#analysisResult {
+  padding: 15px;
+  border-radius: 6px;
+  background-color: #fffbe6;
+  border: 1px solid #ffe58f;
+}
+
+/* Warnings */
+.warning {
+  color: #d93025;
+}
+
+/* Good (pass) result */
+.good {
+  color: #137333;
+}
